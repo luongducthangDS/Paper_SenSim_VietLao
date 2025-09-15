@@ -1,0 +1,29 @@
+Bước 1: Lọc các cặp câu (Vi - Lo) , chỉ giữ lại các cặp câu mà có câu tiếng Việt rõ nghĩa, đúng ngữ pháp, có chất lượng tốt. (Đã chọn 700 cặp câu).
+
+Bước 2: Với mỗi cặp câu đã được chọn, kiểm tra xem câu dịch từ tiếng Lào sang Việt (Lo2Vi) có nghĩa tương đương với câu tiếng Việt. Bước này sẽ loại được các cặp câu mà câu tiếng Việt không thực sự tương ứng về nghĩa với câu tiếng Lào.  (Mức tương tự cao)   (Lọc còn 500 cặp câu)  - File HighScore
+
+Bước 3. Yêu cầu chuyên gia (ChatGPT) viết câu trái nghĩa với Vi được gọi là Vi', ghép Vi' với Lo được cặp câu trái nghĩa. (Tương tự thấp) (500)
+
+
+Bước 4. Yêu cầu chuyên gia (ChatGPT) viết câu gần nghĩa với Vi được gọi là Vi', ghép Vi' với Lo được cặp câu gần nghĩa. Tương tự, Yêu cầu chuyên gia (ChatGPT) viết câu gần nghĩa với Lo được gọi là Lo', ghép Vi với Lo' được cặp câu gần nghĩa. (Tương tự trung bình)  (250)
+
+Bước 5. Yêu cầu chuyên gia (ChatGPT) viết câu liên quan với Vi được gọi là Vi', ghép Vi' với Lo được cặp câu liên quan về nghĩa. Tương tự, Yêu cầu chuyên gia (ChatGPT) viết câu liên quan với Lo được gọi là Lo', ghép Vi với Lo' được cặp câu liên quan về nghĩa. (Tương tự trung bình) (250)
+
+
+Bước 6. Lấy một câu Vi1 trong cặp (Vi1-Lo1) ghép câu Lo2 trong cặp (Vi2-Lo2).(Tương tự thấp) (300)
+
+
+
+
+
+
+Tôi là sinh viên 	fhdgfgfgffkLao	vi100	lo100
+Tôi là giáo viên	fdjfdjfdglao	vi101	lo101
+
+
+Bước sinh 250 trái nghĩa bằng cách biến đổi tiếng Việt, giữ nguyên tiếng Lào
+tôi không phải là sinh viên 	fhdgfgfgffkLao	vi100_Antonym	lo100
+
+
+Bước sinh 250 trái nghĩa bằng cách biến đổi tiếng Lào, giữ nguyên tiếng Viêtk
+tôi không phải là sinh viên 	fhdgfgfgffkLao	vi100	lo100_Antonym

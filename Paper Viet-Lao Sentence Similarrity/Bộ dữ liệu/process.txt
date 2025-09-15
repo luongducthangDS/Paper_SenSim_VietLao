@@ -1,0 +1,27 @@
+quy trình chuẩn bị bộ dữ liệu Việt-Trung
+
+Với một bộ dữ liệu cho sẵn khoảng 7000 cặp câu Việt Trung, là bản dịch của nhau, với yêu cầu lấy 700 cặp câu đồng nghĩa có chất lượng tốt nhất:
+tôi đã chọn lọc các cặp câu có chất lượng tốt nhất như sau:
++ các câu không có các kí tự như @ # $ :
++ các cặp dữ liệu là 1 câu, bởi vì trong bộ dữ liệu có nhiều cặp dữ liệu gồm 1 đoạn , trong đó có nhiều câu
++ kiểm tra các câu đồng nghĩa bằng cách sử dụng google dịch hoặc chatgpt để chắc chắn là bản dịch của nhau
+
+* hoàn thành file 700 cặp câu đồng nghĩa
+
+sau khi lấy được 700 cặp câu đồng nghĩa, sẽ lấy ra 200 câu tiếng Trung gốc để soạn file dữ liệu đồng nghĩa mở rộng:
+
+tôi đã yêu cầu chat gpt viết câu tiếng việt mở rộng như sau:
+
+Hãy tạo cho tôi một câu với ngữ nghĩa tương đương nhưng diễn đạt dài hơn nhưng vẫn là 1 câu so với câu được cho. Câu cần viết lại như sau: "Những gì tôi đang cố gắng nói ở đây không phải là nó sai và sự sáng tạo là cùng một thứ".
+ví dụ: Tôi có mối quan tâm đến vấn đề giáo dục — trên thực tế tôi thấy tất cả mọi người đều quan tâm đến giáo dục.
+Câu biến đổi dài hơn: Tôi có mối quan tâm sâu sắc đến vấn đề giáo dục, và thực tế cho thấy rằng đây là một lĩnh vực mà hầu hết mọi người, không chỉ riêng tôi, đều đặc biệt chú trọng, bởi giáo dục đóng vai trò thiết yếu trong sự phát triển của cá nhân và xã hội nói chung.
+
+sau khi chatGPT đưa ra được câu trả lời đúng với yêu cầu, tôi sẽ ghép nó với câu tiếng lào gốc để có được một cặp câu tiếng lào gốc, tiếng việt mở rộng.
+
+bộ dữ liệu yêu cầu giữ nguyên các câu tiếng lào, và chỉ biến đổi câu tiếng việt, nên với các độ tương đồng trái nghĩa, liên quan cao, liên quan thấp và không liên quan, vẫn sẽ lấy các câu tiếng lào chất lượng đã được chọn lọc trong 700 cặp câu đồng nghĩa đó để xây dựng các độ tương đồng khác với phần câu tiếng việt được biến đổi.
+
+để đạt được 1 câu tiếng việt chất lượng do chatGPT soạn ra, promt do người yêu cầu rất quan trọng, các promt càng chi tiết, có ví dụ tốt thì sẽ đưa ra được câu trả lời chất lượng.
+
+* cách thực hiện mang tính chất tham khảo
+
+

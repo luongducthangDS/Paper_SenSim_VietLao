@@ -1,0 +1,12 @@
+high_score (500): 8.5 - 10
+high_score (200) chiều dài không tương đồng : 7.5 - 8.5
+ví du: Tôi có mối quan tâm đến vấn đề giáo dục — trên thực tế tôi thấy tất cả mọi người đều quan tâm đến giáo dục.
+Câu biến đổi dài hơn: Tôi có mối quan tâm sâu sắc đến vấn đề giáo dục, và thực tế cho thấy rằng đây là một lĩnh vực mà hầu hết mọi người, không chỉ riêng tôi, đều đặc biệt chú trọng, bởi giáo dục đóng vai trò thiết yếu trong sự phát triển của cá nhân và xã hội nói chung.
+
+Yêu cầu GPT:
+Hãy tạo cho tôi một câu với ngữ nghĩa tương đương nhưng diễn đạt dài hơn nhưng vẫn là 1 câu. Câu cần viết lại như sau: "Tôi có mối quan tâm đến vấn đề giáo dục — trên thực tế tôi thấy tất cả mọi người đều quan tâm đến giáo dục."
+
+lienquancaoViet-Lao:5-8.5
+lienquanthapViet-Lao:3-5
+trainghiaViet-Lao:0 - 3 
+Viet-trainghiaLao:0 -3 
